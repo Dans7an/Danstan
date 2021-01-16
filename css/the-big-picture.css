@@ -1,0 +1,219 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-toggle .icon-bar{
+  width: 50px !important;
+  height:3px !important;
+}
+/* animation styling */
+#contact .card-body:hover i,#contact .card-body:hover h4{
+	color: #87d37c;
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
+}
+.contacts{
+    margin-top: 50px;
+}
+/* Transition animation */
+.transition-element{
+  height: 100vh;
+  width: 100vw;
+  background-color: #454545;
+  position: absolute;
+  left: -100vw;
+  z-index: 10000;
+}
+/* Background home video  */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  /* filter: grayscale(5); */
+}
+/* Background images  */
+  .sunset{
+    background-image: url('../bg-images/sunset.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  .ocean{
+    background-image: url('../bg-images/ocean.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  .mountain{
+    background-image: url('../bg-images/mountain.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    max-width: 100%;
+  }
+.movable{
+  padding: 10% 25% 10% 20%;
+  text-align: left;
+  margin: 0 50px;
+}
+/* for the skills section */
+
+.Skills-info{
+  text-align: left;
+  margin: 0 11%;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+a{
+  color: white;
+}
+button .navbar-toggler{
+align-items: right;
+}
+.btn-large{
+  padding: 0.5rem 3rem;
+  font-size: 23px;
+  margin: 0 5px;
+}
+p{
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  text-align: left;
+}
+h1{
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  top: 34%;
+  color: white;
+  font-size: 137%;
+  line-height: 1.5;
+  text-align: center;
+}
+button .navbar-toggler{
+  margin-right: 16px;
+}
+i{
+  color: white;
+  margin: 0 1rem;
+}
+.sx{
+  margin-top: 50px;
+}
+.project-description{
+  font-size: 15px;
+}
+.caption p{
+  margin-bottom: 0;
+}
+
+/* project image size */
+.thumbnail img{
+  width: 100%;
+}
+@media (max-width: 993px ){
+
+  .btn-large{
+    padding: 0.5rem 2.5rem;
+    font-size: 18px;
+    margin: 0 5px;
+  }
+
+  body .ml12{
+    background-image: url('ourimage.png');
+    background-size: 400%;
+  }
+  #movabl .ml13{
+    font-size: 12px;
+  }
+}
+@media (max-width: 829px ){
+  #name{
+    font-size: 32px;
+  }
+  #title{
+    font-size: 28px;
+  }
+  body p{
+    font-size: 20px
+  } */
+ .btn-large{
+    font-size: 18px;
+    padding: 0.5rem 1rem;
+  }
+  .movable{
+    margin: 0;
+  }
+}
+@media (max-width: 600px){
+
+  #myVideo{
+    display: none;
+  }
+  body .home-image{
+    background: url('../bg-images/wallImage.png');
+    background-size: cover;
+    /* background-image: url('../bg-images/sunset.png'); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  #title{
+    font-size: 23px;
+  }
+  body p{
+    font-size: 20px
+  } */
+  .btn-large{
+    font-size: 18px;
+    padding: 0.5rem 1rem;
+  } 
+  .movable{
+    margin: 0;
+    padding: 20% 1%;
+  }
+  .column {
+    width: 100%;
+  }
+  .mb-5, .my-5 {
+    margin-bottom: 1rem;
+  }
+  }
