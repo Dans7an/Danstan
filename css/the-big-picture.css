@@ -79,6 +79,9 @@
   text-align: left;
   margin: 0 50px;
 }
+.navbar i{
+  font-size: 33px;
+}
 /* for the skills section */
 
 .Skills-info{
